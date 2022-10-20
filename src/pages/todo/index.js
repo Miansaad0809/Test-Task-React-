@@ -7,6 +7,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 const Todo = () => {
+  // Todos crud functionality
   const columns = [
     { field: "id", headerName: "Id" },
     { field: "userId", headerName: "User Id" },
