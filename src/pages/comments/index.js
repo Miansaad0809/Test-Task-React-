@@ -3,7 +3,7 @@ import { Api } from "../../utils/Api";
 import Table from "../../component/Table";
 import { columns } from "../cruds/columns";
 const Comments = () => {
-  // Comment Page
+  // Comment Page populate
   const [comments, setComments] = useState([]);
   const [allComments, setAllComments] = useState([]);
   useEffect(() => {
