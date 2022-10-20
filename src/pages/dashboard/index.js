@@ -31,7 +31,7 @@ const Dashboard = () => {
   // Dashboard Page (Create a dashboard like page with an area chart +
   //   Complete the same task as task 6
   // Use this package:
-  // react-google-charts^3.0.15
+  // react-google-charts^3.0.15.
   //   )
   const [viewWithGoogle, setViewWithGoogle] = useState(false);
   const [population, setPopulation] = useState([]);
