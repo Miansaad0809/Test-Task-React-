@@ -5,7 +5,7 @@ import { Api } from "../../utils/Api";
 import Table from "../../component/Table";
 import { columns } from "./columns";
 const Cruds = () => {
-  // Crud Page
+  // Crud Page columnar
   const [data, setData] = useState({
     posts: [],
     comments: [],
